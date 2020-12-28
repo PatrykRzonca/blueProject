@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BluePilot)(type Legacy)(uri /home/patrys/git_KiCad_Hardware/BluePilot/BluePilot.lib)(options "")(descr ""))
+  (lib (name BlueControlerSymbols)(type Legacy)(uri /home/patrys/git_KiCad_Hardware/BlueControler/BlueControler/BlueControlerSymbols.lib)(options "")(descr ""))
+)

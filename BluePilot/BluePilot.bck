@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BHC-18650-1P
+D 18650 Cell Battery Holder
+K Holder, Battery, 18650
+F https://www.tme.eu/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf
+$ENDCMP
+#
+#End Doc Library

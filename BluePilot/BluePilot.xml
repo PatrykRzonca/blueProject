@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BluePilot.sch</source>
+    <date>nie, 20 gru 2020, 10:41:09</date>
+    <tool>Eeschema 5.1.8-db9833491~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BluePilot</title>
+        <company>Kalipso</company>
+        <rev>A0</rev>
+        <date>2020-12-17</date>
+        <source>BluePilot.sch</source>
+        <comment number="1" value="Patryk Rzonca"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerSection/" tstamps="/5FDF4EEF/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerSection.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT201">
+      <value>BHC-18650-1P</value>
+      <footprint>BluePilot:BHC-18650-1P</footprint>
+      <datasheet>https://www.tme.eu/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf</datasheet>
+      <fields>
+        <field name=" Wymiary ">https://www.tme.eu/html/gfx/image_22171.gif</field>
+        <field name="Ilość baterii">1</field>
+        <field name="Kolor">czarny</field>
+        <field name="Masa brutto">7 [g]</field>
+        <field name="Oznaczenie producenta"> BHC-18650-1P </field>
+        <field name="Producent"> COMF</field>
+        <field name="Rozmiar ogniwa">MR18650</field>
+        <field name="Typ akcesoriów do baterii">pojemnik</field>
+        <field name="Wyprowadzenia">do druku</field>
+      </fields>
+      <libsource lib="BluePilot" part="BHC-18650-1P" description="18650 Cell Battery Holder"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FDD0EB1</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>BQ24232HRGTR</value>
+      <footprint>BluePilot:BQ24232HRGTR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24232h.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1608233701866&amp;ref_url=https%253A%252F%252Fpl.mouser.com%252F</datasheet>
+      <fields>
+        <field name="Battery Type:">Li-Ion, Li-Polymer</field>
+        <field name="Brand:">Texas Instruments</field>
+        <field name="Factory Pack Quantity:">3000</field>
+        <field name="Manufacturer:">Texas Instruments</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Moisture Sensitive:">Yes</field>
+        <field name="Mounting Style:"> SMD/SMT</field>
+        <field name="Operating Supply Voltage:">4.35 V to 28 V</field>
+        <field name="Output Current:">500 mA</field>
+        <field name="Output Voltage:">4.35 V</field>
+        <field name="Package/Case:"> VQFN-16</field>
+        <field name="Packaging_1:"> Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Product Category:">Battery Management</field>
+        <field name="Product Type:">Battery Management</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=EIDG2y%252Bg3gBlf9CU3E5HFg%3d%3d</field>
+        <field name="Series:">BQ24232H</field>
+        <field name="Subcategory:">PMIC - Power Management ICs</field>
+        <field name="Tradename:">bqTINY</field>
+        <field name="Unit Weight:">50 mg </field>
+      </fields>
+      <libsource lib="BluePilot" part="BQ24232HRGTR" description="Battery Management USB-Friendly Lithium Based Battry Chrgr"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FDD1A61</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>UJ2-MIBH2-4-SMT-TR</value>
+      <footprint>BluePilot:UJ2-MIBH2-4-SMT-TR</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/670/uj2_mibh2_4_smt-1313423.pdf</datasheet>
+      <fields>
+        <field name=" Maximum Operating Temperature:">+ 85 C</field>
+        <field name=" Shell Plating:">Nickel</field>
+        <field name=" Unit Weight:">2,338 g</field>
+        <field name="Brand:">CUI Devices</field>
+        <field name="Contact Material:">Copper Alloy</field>
+        <field name="Contact Plating:">Gold</field>
+        <field name="Current Rating:">500 mA, 1.8 A</field>
+        <field name="Factory Pack Quantity:">1750</field>
+        <field name="Flammability Rating:">UL 94V-0</field>
+        <field name="Gender:">Jack (Female)</field>
+        <field name="IP Rating:">-</field>
+        <field name="Insulator Colour:">Black</field>
+        <field name="Manufacturer:">CUI Devices</field>
+        <field name="Minimum Operating Temperature:">- 25 C</field>
+        <field name="Mounting Angle:">Right Angle</field>
+        <field name="Mounting Style:"> SMD/SMT</field>
+        <field name="Number of Contacts:">5 Contact</field>
+        <field name="Number of Ports:">1 Port</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Product Category:">USB Connectors</field>
+        <field name="Product Type:">USB Connectors</field>
+        <field name="Product:"> Micro USB Type B Connectors</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=OOGF9veBr%252BU6lrcVJE28Pg%3d%3d</field>
+        <field name="Series:">UJ2-MIBH2-SMT</field>
+        <field name="Standard:">USB 2.0</field>
+        <field name="Subcategory:">USB Connectors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Tradename:">UJ2-MIBH2</field>
+        <field name="Type:">Type B</field>
+        <field name="Voltage Rating:">30 V</field>
+        <field name="nsulation Resistance:">100 MOhms</field>
+      </fields>
+      <libsource lib="BluePilot" part="UJ2-MIBH2-4-SMT-TR" description="USB Connectors USB 2.0 micro B jack 5 pin Horizontal SMT"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FDD3345</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>CL10A475KP8NNNC</value>
+      <footprint>BluePilot:CL10A475KP8NNNC</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name=" Class:">Class 2</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4700 nF</field>
+        <field name="Capacitance:">4.7 uF</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Dielectric:">X5R</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Part # Aliases:">CL10A475KP8NNN</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=svmKof19dAEn%252BrtksIPoDQ%3d%3d</field>
+        <field name="Series:">CL</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Termination:">Standard</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Voltage Rating DC:">10 VDC</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+      </fields>
+      <libsource lib="BluePilot" part="CL10A475KP8NNNC" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-10% 10V X5R 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FDD2535</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>KB_DELPS2.12-QHRI-24-Z555-10-S</value>
+      <footprint>BluePilot:KB_DELPS2.12-QHRI-24-Z555-10-S</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-5455914/KB%20DELPS2.12_EN.pdf</datasheet>
+      <fields>
+        <field name=" Subcategory:">LEDs</field>
+        <field name="Brand:">OSRAM Opto Semiconductors</field>
+        <field name="Factory Pack Quantity:">5000</field>
+        <field name="Height:">0.6 mm</field>
+        <field name="If - Forward Current:"> 10 mA</field>
+        <field name="Illumination Colour:">Blue</field>
+        <field name="Length:"> 1.6 mm</field>
+        <field name="Lens Colour:">Colorless</field>
+        <field name="Lens Transparency:">Clear</field>
+        <field name="Luminous Intensity:">97 mcd</field>
+        <field name="Manufacturer:">Osram Opto Semiconductor</field>
+        <field name="Maximum Operating Temperature:">+ 110 C</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Moisture Sensitive:">Yes</field>
+        <field name="Mounting Style:">SMD/SMT</field>
+        <field name="Orientation:">Top View</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Part # Aliases:">Q65112A6350</field>
+        <field name="Product Category:">Standard LEDs - SMD</field>
+        <field name="Product Type:">LED - Standard</field>
+        <field name="Product:">Blue LEDs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=EEZBBpFeDS%252B59rfHH5hrrQ%3d%3d</field>
+        <field name="Series:">TOPLED E 1608, https://pl.mouser.com/Osram-Opto-Semiconductor/Standard-LEDs-SMD/TOPLED-E-1608-Series/_/N-1z0j7bwZec21jZ1y8d3oi</field>
+        <field name="Unit Weight:">2 mg</field>
+        <field name="Vf - Forward Voltage:">2.8 V</field>
+        <field name="Viewing Angle:">120 deg</field>
+        <field name="Wavelength/Colour Temperature:">466 nm</field>
+        <field name="Width:">0.8 mm</field>
+      </fields>
+      <libsource lib="BluePilot" part="KB_DELPS2.12-QHRI-24-Z555-10-S" description="Standard LEDs - SMD Blue TOPLED E 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FE3157F</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>CL10A475KP8NNNC</value>
+      <footprint>BluePilot:CL10A475KP8NNNC</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name=" Class:">Class 2</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4700 nF</field>
+        <field name="Capacitance:">4.7 uF</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Dielectric:">X5R</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Part # Aliases:">CL10A475KP8NNN</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=svmKof19dAEn%252BrtksIPoDQ%3d%3d</field>
+        <field name="Series:">CL</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Termination:">Standard</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Voltage Rating DC:">10 VDC</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+      </fields>
+      <libsource lib="BluePilot" part="CL10A475KP8NNNC" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-10% 10V X5R 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FE53BD2</tstamp>
+    </comp>
+    <comp ref="RT201">
+      <value>ERT-J1VR103J</value>
+      <footprint>BluePilot:ERT-J1VR103J</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/315/AUA0000C8-1131141.pdf</datasheet>
+      <fields>
+        <field name="B Parameter:">4300 K</field>
+        <field name="Beta Value:">B25/85</field>
+        <field name="Brand:">Panasonic</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Height:">0.8 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Panasonic</field>
+        <field name="Maximum Operating Temperature:">+ 125 C</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Power Rating:">100 mW</field>
+        <field name="Product Category:">NTC (Negative Temperature Coefficient) Thermistors</field>
+        <field name="Product Type:">NTC Thermistors</field>
+        <field name="Resistance:">10 kOhms</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=nQzkXAhPvFZ8wdxRWKG3Rw%3d%3d</field>
+        <field name="Series:">ERTJ, https://pl.mouser.com/Panasonic/NTC-Thermistors/ERTJ-Series/_/N-1yzvjj0ZaxfvtZ1yzrt3w</field>
+        <field name="Subcategory:">Thermistors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Tolerance:">5 %</field>
+        <field name="Type:">NTC</field>
+        <field name="Unit Weight:">34 mg</field>
+        <field name="Width:">0.8 mm</field>
+      </fields>
+      <libsource lib="BluePilot" part="ERT-J1VR103J" description="NTC (Negative Temperature Coefficient) Thermistors 10K OHM 5%"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FE65B01</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>RC0603FR-071ML</value>
+      <footprint>BluePilot:RC0603FR-071ML</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf</datasheet>
+      <fields>
+        <field name=" Product:">Thick Film Resistors SMD</field>
+        <field name="Application:">High Reliability</field>
+        <field name="Brand:">Yageo</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Factory Pack Quantity:">5000</field>
+        <field name="Features:">-</field>
+        <field name="Height:"> 0.45 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Yageo</field>
+        <field name="Maximum Operating Temperature:">+ 155 C</field>
+        <field name="Minimum Operating Temperature:">- 55 C</field>
+        <field name="Mounting Style:">PCB Mount</field>
+        <field name="Package/Case:">-</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Power Rating:">100 mW (1/10 W)</field>
+        <field name="Product Category:">Thick Film Resistors - SMD</field>
+        <field name="Product Type:">Thick Film Resistors</field>
+        <field name="Resistance:">1 MOhms</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/CompliantByExemption?qs=XOR2mAOnOYpbkjEcL%2f9%2fTA%3d%3d</field>
+        <field name="Series:">RC, https://pl.mouser.com/Yageo/Thick-Film-Resistors-SMD/RC-Series/_/N-1z0zlfjZ7gz42Z1yzvw8y</field>
+        <field name="Subcategory:">Resistors</field>
+        <field name="Technology:">Thick Film</field>
+        <field name="Temperature Coefficient:">100 PPM / C</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Tolerance:">1 %</field>
+        <field name="Type:">General Purpose</field>
+        <field name="Unit Weight:">24 mg</field>
+        <field name="Voltage Rating:">75 V</field>
+        <field name="Width:">0.8 mm</field>
+      </fields>
+      <libsource lib="BluePilot" part="RC0603FR-071ML" description="Thick Film Resistors - SMD 1M OHM 1%"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FEDE03C</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>CL10A475KP8NNNC</value>
+      <footprint>BluePilot:CL10A475KP8NNNC</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name=" Class:">Class 2</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4700 nF</field>
+        <field name="Capacitance:">4.7 uF</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Dielectric:">X5R</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Part # Aliases:">CL10A475KP8NNN</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=svmKof19dAEn%252BrtksIPoDQ%3d%3d</field>
+        <field name="Series:">CL</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Termination:">Standard</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Voltage Rating DC:">10 VDC</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+      </fields>
+      <libsource lib="BluePilot" part="CL10A475KP8NNNC" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-10% 10V X5R 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FDFED91</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>KB_DELPS2.12-QHRI-24-Z555-10-S</value>
+      <footprint>BluePilot:KB_DELPS2.12-QHRI-24-Z555-10-S</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-5455914/KB%20DELPS2.12_EN.pdf</datasheet>
+      <fields>
+        <field name=" Subcategory:">LEDs</field>
+        <field name="Brand:">OSRAM Opto Semiconductors</field>
+        <field name="Factory Pack Quantity:">5000</field>
+        <field name="Height:">0.6 mm</field>
+        <field name="If - Forward Current:"> 10 mA</field>
+        <field name="Illumination Colour:">Blue</field>
+        <field name="Length:"> 1.6 mm</field>
+        <field name="Lens Colour:">Colorless</field>
+        <field name="Lens Transparency:">Clear</field>
+        <field name="Luminous Intensity:">97 mcd</field>
+        <field name="Manufacturer:">Osram Opto Semiconductor</field>
+        <field name="Maximum Operating Temperature:">+ 110 C</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Moisture Sensitive:">Yes</field>
+        <field name="Mounting Style:">SMD/SMT</field>
+        <field name="Orientation:">Top View</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Part # Aliases:">Q65112A6350</field>
+        <field name="Product Category:">Standard LEDs - SMD</field>
+        <field name="Product Type:">LED - Standard</field>
+        <field name="Product:">Blue LEDs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=EEZBBpFeDS%252B59rfHH5hrrQ%3d%3d</field>
+        <field name="Series:">TOPLED E 1608, https://pl.mouser.com/Osram-Opto-Semiconductor/Standard-LEDs-SMD/TOPLED-E-1608-Series/_/N-1z0j7bwZec21jZ1y8d3oi</field>
+        <field name="Unit Weight:">2 mg</field>
+        <field name="Vf - Forward Voltage:">2.8 V</field>
+        <field name="Viewing Angle:">120 deg</field>
+        <field name="Wavelength/Colour Temperature:">466 nm</field>
+        <field name="Width:">0.8 mm</field>
+      </fields>
+      <libsource lib="BluePilot" part="KB_DELPS2.12-QHRI-24-Z555-10-S" description="Standard LEDs - SMD Blue TOPLED E 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FE1F9FA</tstamp>
+    </comp>
+    <comp ref="H201">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FF6ACFB</tstamp>
+    </comp>
+    <comp ref="H202">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FF6B97B</tstamp>
+    </comp>
+    <comp ref="H203">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FF6D9AA</tstamp>
+    </comp>
+    <comp ref="H204">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FF6D9B0</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>CL10B472KC8WPNC</value>
+      <footprint>BluePilot:CL10B472KC8WPNC</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/585/MLCC_Automotive-1837966.pdf</datasheet>
+      <fields>
+        <field name=" Class:">Class 2</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4.7nF</field>
+        <field name="Capacitance:">4700 pF</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Dielectric:">X7R</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">Reel</field>
+        <field name="Part # Aliases:">CL10B472KC8WPN</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=qbUjXKNkzpnfDACOW2s%252BHw%3d%3d</field>
+        <field name="Series:">CL Auto</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Termination:">Standard</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Voltage Rating DC:">100 VDC</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+      </fields>
+      <libsource lib="BluePilot" part="CL10B472KC8WPNC" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF+/-10% 100V X7R 1608"/>
+      <sheetpath names="/PowerSection/" tstamps="/5FDF4EEF/"/>
+      <tstamp>5FECCB81</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BluePilot" part="BHC-18650-1P">
+      <description>18650 Cell Battery Holder</description>
+      <docs>https://www.tme.eu/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BHC-18650-1P</field>
+        <field name="Footprint">BluePilot:BHC-18650-1P</field>
+        <field name="Producent"> COMF</field>
+        <field name="Typ akcesoriów do baterii">pojemnik</field>
+        <field name="Wyprowadzenia">do druku</field>
+        <field name="Rozmiar ogniwa">MR18650</field>
+        <field name="Ilość baterii">1</field>
+        <field name="Kolor">czarny</field>
+        <field name=" Wymiary ">https://www.tme.eu/html/gfx/image_22171.gif</field>
+        <field name="Masa brutto">7 [g]</field>
+        <field name="Oznaczenie producenta"> BHC-18650-1P </field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT+" type="power_out"/>
+        <pin num="2" name="VBAT-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="BQ24232HRGTR">
+      <description>Battery Management USB-Friendly Lithium Based Battry Chrgr</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq24232h.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1608233701866&amp;ref_url=https%253A%252F%252Fpl.mouser.com%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24232HRGTR</field>
+        <field name="Footprint">BluePilot:BQ24232HRGTR</field>
+        <field name="Manufacturer:">Texas Instruments</field>
+        <field name="Product Category:">Battery Management</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=EIDG2y%252Bg3gBlf9CU3E5HFg%3d%3d</field>
+        <field name="Battery Type:">Li-Ion, Li-Polymer</field>
+        <field name="Output Voltage:">4.35 V</field>
+        <field name="Output Current:">500 mA</field>
+        <field name="Operating Supply Voltage:">4.35 V to 28 V</field>
+        <field name="Package/Case:"> VQFN-16</field>
+        <field name="Mounting Style:"> SMD/SMT</field>
+        <field name="Series:">BQ24232H</field>
+        <field name="Packaging_1:"> Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Brand:">Texas Instruments</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Moisture Sensitive:">Yes</field>
+        <field name="Product Type:">Battery Management</field>
+        <field name="Factory Pack Quantity:">3000</field>
+        <field name="Subcategory:">PMIC - Power Management ICs</field>
+        <field name="Tradename:">bqTINY</field>
+        <field name="Unit Weight:">50 mg </field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="input"/>
+        <pin num="2" name="BAT" type="input"/>
+        <pin num="3" name="BAT" type="input"/>
+        <pin num="4" name="~CE" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~PGOOD" type="openCol"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~CHG" type="openCol"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="power_out"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="IN" type="input"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="BiDi"/>
+        <pin num="17" name="ThermalPad" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="CL10A475KP8NNNC">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-10% 10V X5R 1608</description>
+      <docs>https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL10A475KP8NNNC</field>
+        <field name="Footprint">BluePilot:CL10A475KP8NNNC</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=svmKof19dAEn%252BrtksIPoDQ%3d%3d</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Termination:">Standard</field>
+        <field name="Capacitance:">4.7 uF</field>
+        <field name="Voltage Rating DC:">10 VDC</field>
+        <field name="Dielectric:">X5R</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Series:">CL</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4700 nF</field>
+        <field name=" Class:">Class 2</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Part # Aliases:">CL10A475KP8NNN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="CL10B472KC8WPNC">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF+/-10% 100V X7R 1608</description>
+      <docs>https://pl.mouser.com/datasheet/2/585/MLCC_Automotive-1837966.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL10B472KC8WPNC</field>
+        <field name="Footprint">BluePilot:CL10B472KC8WPNC</field>
+        <field name="Manufacturer:">Samsung Electro-Mechanics</field>
+        <field name="Product Category:">Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=qbUjXKNkzpnfDACOW2s%252BHw%3d%3d</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">Reel</field>
+        <field name="Termination:">Standard</field>
+        <field name="Capacitance:">4700 pF</field>
+        <field name="Voltage Rating DC:">100 VDC</field>
+        <field name="Dielectric:">X7R</field>
+        <field name="Tolerance:">10 %</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Height:">0.9 mm</field>
+        <field name="inimum Operating Temperature:">-55 C</field>
+        <field name="Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Product:">General Type MLCCs</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Series:">CL Auto</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name=" Type:">Multilayer Ceramic Capaticor</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="Brand:">Samsung Electro-Mechanics</field>
+        <field name="Capacitance - nF:">4.7nF</field>
+        <field name=" Class:">Class 2</field>
+        <field name="Product Type:">Ceramic Capacitors</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Subcategory:">Capacitors</field>
+        <field name="Part # Aliases:">CL10B472KC8WPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="ERT-J1VR103J">
+      <description>NTC (Negative Temperature Coefficient) Thermistors 10K OHM 5%</description>
+      <docs>https://pl.mouser.com/datasheet/2/315/AUA0000C8-1131141.pdf</docs>
+      <fields>
+        <field name="Reference">RT</field>
+        <field name="Value">ERT-J1VR103J</field>
+        <field name="Footprint">BluePilot:ERT-J1VR103J</field>
+        <field name="Manufacturer:">Panasonic</field>
+        <field name="Product Category:">NTC (Negative Temperature Coefficient) Thermistors</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=nQzkXAhPvFZ8wdxRWKG3Rw%3d%3d</field>
+        <field name="Series:">ERTJ, https://pl.mouser.com/Panasonic/NTC-Thermistors/ERTJ-Series/_/N-1yzvjj0ZaxfvtZ1yzrt3w</field>
+        <field name="B Parameter:">4300 K</field>
+        <field name="Resistance:">10 kOhms</field>
+        <field name="Power Rating:">100 mW</field>
+        <field name="Tolerance:">5 %</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Maximum Operating Temperature:">+ 125 C</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="Height:">0.8 mm</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Type:">NTC</field>
+        <field name="Brand:">Panasonic</field>
+        <field name="Beta Value:">B25/85</field>
+        <field name="Product Type:">NTC Thermistors</field>
+        <field name="Factory Pack Quantity:">4000</field>
+        <field name="Subcategory:">Thermistors</field>
+        <field name="Unit Weight:">34 mg</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="KB_DELPS2.12-QHRI-24-Z555-10-S">
+      <description>Standard LEDs - SMD Blue TOPLED E 1608</description>
+      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-5455914/KB%20DELPS2.12_EN.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KB_DELPS2.12-QHRI-24-Z555-10-S</field>
+        <field name="Footprint">BluePilot:KB_DELPS2.12-QHRI-24-Z555-10-S</field>
+        <field name="Manufacturer:">Osram Opto Semiconductor</field>
+        <field name="Product Category:">Standard LEDs - SMD</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=EEZBBpFeDS%252B59rfHH5hrrQ%3d%3d</field>
+        <field name="Product:">Blue LEDs</field>
+        <field name="Package/Case:">0603 (1608 metric)</field>
+        <field name="Orientation:">Top View</field>
+        <field name="Illumination Colour:">Blue</field>
+        <field name="If - Forward Current:"> 10 mA</field>
+        <field name="Vf - Forward Voltage:">2.8 V</field>
+        <field name="Wavelength/Colour Temperature:">466 nm</field>
+        <field name="Luminous Intensity:">97 mcd</field>
+        <field name="Viewing Angle:">120 deg</field>
+        <field name="Length:"> 1.6 mm</field>
+        <field name="Height:">0.6 mm</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="Minimum Operating Temperature:">- 40 C</field>
+        <field name="Maximum Operating Temperature:">+ 110 C</field>
+        <field name="Lens Colour:">Colorless</field>
+        <field name="Lens Transparency:">Clear</field>
+        <field name="Series:">TOPLED E 1608, https://pl.mouser.com/Osram-Opto-Semiconductor/Standard-LEDs-SMD/TOPLED-E-1608-Series/_/N-1z0j7bwZec21jZ1y8d3oi</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Brand:">OSRAM Opto Semiconductors</field>
+        <field name="Mounting Style:">SMD/SMT</field>
+        <field name="Moisture Sensitive:">Yes</field>
+        <field name="Product Type:">LED - Standard</field>
+        <field name="Factory Pack Quantity:">5000</field>
+        <field name=" Subcategory:">LEDs</field>
+        <field name="Part # Aliases:">Q65112A6350</field>
+        <field name="Unit Weight:">2 mg</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="RC0603FR-071ML">
+      <description>Thick Film Resistors - SMD 1M OHM 1%</description>
+      <docs>https://pl.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-071ML</field>
+        <field name="Footprint">BluePilot:RC0603FR-071ML</field>
+        <field name="Manufacturer:">Yageo</field>
+        <field name="Product Category:">Thick Film Resistors - SMD</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/CompliantByExemption?qs=XOR2mAOnOYpbkjEcL%2f9%2fTA%3d%3d</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Series:">RC, https://pl.mouser.com/Yageo/Thick-Film-Resistors-SMD/RC-Series/_/N-1z0zlfjZ7gz42Z1yzvw8y</field>
+        <field name="Resistance:">1 MOhms</field>
+        <field name="Power Rating:">100 mW (1/10 W)</field>
+        <field name="Tolerance:">1 %</field>
+        <field name="Temperature Coefficient:">100 PPM / C</field>
+        <field name="Minimum Operating Temperature:">- 55 C</field>
+        <field name="Maximum Operating Temperature:">+ 155 C</field>
+        <field name="Voltage Rating:">75 V</field>
+        <field name="Case Code - in:">0603</field>
+        <field name="Case Code - mm:">1608</field>
+        <field name="Application:">High Reliability</field>
+        <field name="Features:">-</field>
+        <field name="Height:"> 0.45 mm</field>
+        <field name="Length:">1.6 mm</field>
+        <field name="Package/Case:">-</field>
+        <field name=" Product:">Thick Film Resistors SMD</field>
+        <field name="Technology:">Thick Film</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Type:">General Purpose</field>
+        <field name="Width:">0.8 mm</field>
+        <field name="Brand:">Yageo</field>
+        <field name="Mounting Style:">PCB Mount</field>
+        <field name="Product Type:">Thick Film Resistors</field>
+        <field name="Factory Pack Quantity:">5000</field>
+        <field name="Subcategory:">Resistors</field>
+        <field name="Unit Weight:">24 mg</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePilot" part="UJ2-MIBH2-4-SMT-TR">
+      <description>USB Connectors USB 2.0 micro B jack 5 pin Horizontal SMT</description>
+      <docs>https://pl.mouser.com/datasheet/2/670/uj2_mibh2_4_smt-1313423.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ2-MIBH2-4-SMT-TR</field>
+        <field name="Footprint">BluePilot:UJ2-MIBH2-4-SMT-TR</field>
+        <field name="Manufacturer:">CUI Devices</field>
+        <field name="Product Category:">USB Connectors</field>
+        <field name="RoHS:">https://pl.mouser.com/Search/RoHSCompliant?qs=OOGF9veBr%252BU6lrcVJE28Pg%3d%3d</field>
+        <field name="Product:"> Micro USB Type B Connectors</field>
+        <field name="Gender:">Jack (Female)</field>
+        <field name="Standard:">USB 2.0</field>
+        <field name="Termination Style:">SMD/SMT</field>
+        <field name="Number of Contacts:">5 Contact</field>
+        <field name="Number of Ports:">1 Port</field>
+        <field name="Current Rating:">500 mA, 1.8 A</field>
+        <field name="Mounting Angle:">Right Angle</field>
+        <field name="Mounting Style:"> SMD/SMT</field>
+        <field name="IP Rating:">-</field>
+        <field name="Packaging_1:">Cut Tape</field>
+        <field name="Packaging_2:">MouseReel</field>
+        <field name="Packaging_3:">Reel</field>
+        <field name="Contact Plating:">Gold</field>
+        <field name="Series:">UJ2-MIBH2-SMT</field>
+        <field name="Type:">Type B</field>
+        <field name="Voltage Rating:">30 V</field>
+        <field name="Brand:">CUI Devices</field>
+        <field name="Contact Material:">Copper Alloy</field>
+        <field name="Flammability Rating:">UL 94V-0</field>
+        <field name="Insulator Colour:">Black</field>
+        <field name=" Shell Plating:">Nickel</field>
+        <field name="nsulation Resistance:">100 MOhms</field>
+        <field name=" Maximum Operating Temperature:">+ 85 C</field>
+        <field name="Minimum Operating Temperature:">- 25 C</field>
+        <field name="Product Type:">USB Connectors</field>
+        <field name="Factory Pack Quantity:">1750</field>
+        <field name="Subcategory:">USB Connectors</field>
+        <field name="Tradename:">UJ2-MIBH2</field>
+        <field name=" Unit Weight:">2,338 g</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BluePilot">
+      <uri>/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="nCE_enable">
+      <node ref="U201" pin="12"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U201" pin="17"/>
+      <node ref="BT201" pin="2"/>
+      <node ref="U201" pin="8"/>
+      <node ref="C201" pin="2"/>
+      <node ref="J201" pin="5"/>
+      <node ref="H204" pin="1"/>
+      <node ref="H203" pin="1"/>
+      <node ref="H202" pin="1"/>
+      <node ref="H201" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="RT201" pin="2"/>
+    </net>
+    <net code="3" name="/PowerSection/TS_sens">
+      <node ref="U201" pin="1"/>
+      <node ref="RT201" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C201-Pad1)">
+      <node ref="J201" pin="6"/>
+      <node ref="R201" pin="1"/>
+      <node ref="C201" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D202-Pad1)">
+      <node ref="D202" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J201-Pad2)">
+      <node ref="J201" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J201-Pad3)">
+      <node ref="J201" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J201-Pad4)">
+      <node ref="J201" pin="4"/>
+    </net>
+    <net code="9" name="Net-(U201-Pad9)">
+      <node ref="U201" pin="9"/>
+    </net>
+    <net code="10" name="/PowerSection/V_charger">
+      <node ref="U201" pin="13"/>
+      <node ref="J201" pin="1"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U201-Pad16)">
+      <node ref="U201" pin="16"/>
+    </net>
+    <net code="12" name="Net-(U201-Pad14)">
+      <node ref="U201" pin="14"/>
+    </net>
+    <net code="13" name="Net-(U201-Pad15)">
+      <node ref="U201" pin="15"/>
+    </net>
+    <net code="14" name="Net-(U201-Pad4)">
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U201-Pad5)">
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="16" name="Net-(U201-Pad6)">
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="17" name="Net-(U201-Pad7)">
+      <node ref="U201" pin="7"/>
+    </net>
+    <net code="18" name="Net-(D201-Pad2)">
+      <node ref="D202" pin="2"/>
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D201-Pad1)">
+      <node ref="D201" pin="1"/>
+    </net>
+    <net code="20" name="/PowerSection/V_bat">
+      <node ref="BT201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U201" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C204-Pad1)">
+      <node ref="C204" pin="1"/>
+      <node ref="U201" pin="11"/>
+      <node ref="U201" pin="10"/>
+    </net>
+  </nets>
+</export>

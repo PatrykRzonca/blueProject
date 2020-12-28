@@ -1,0 +1,34 @@
+12-27 22:48:01 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
+12-27 22:48:01 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]'
+12-27 22:48:01 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.8-db9833491~88~ubuntu20.04.1
+12-27 22:48:01 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
+12-27 22:48:01 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7fd39d8d8160>, <wx._core.Frame object at 0x7fd39d8d81f0>, <wx._core.Frame object at 0x7fd39d8d8280>, <wx._core.Frame object at 0x7fd39d8d8310>, <wx._core.Frame object at 0x7fd39d8d83a0>, <place_footprints.action_place_footprints.InitialDialog object at 0x7fd39e402e50>, <place_footprints.action_place_footprints.PlaceByReference object at 0x7fd39405a820>, <delete_selected.action_delete_selected.DeleteLayoutDialog object at 0x7fd39405a040>, <pad2pad_track_distance.action_pad2pad_track_distance.Pad2PadTrackDistanceDialog object at 0x7fd394037f70>, <length_stats.action_length_stats.LenghtStatsDialog object at 0x7fd394073040>, <wx._core.Frame object at 0x7fd39d8d8430>, <wx._core.Frame object at 0x7fd39d8d8040>, <delete_selected.action_delete_selected.DeleteLayoutDialog object at 0x7fd39d8db310>, <delete_selected.action_delete_selected.DeleteLayoutDialog object at 0x7fd39d8db3a0>]
+12-27 22:48:01 replicate_layout.action_replicate_layout 343:Preparing replicator with D202 as a reference
+12-27 22:48:01 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+12-27 22:48:01 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'5FDF4EEF': ['PowerSection', '/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BQ24232HRGTR.sch'], '601437C5': ['ESP32_Logic_Brain', '/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/ESP32.sch']}
+12-27 22:48:01 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+12-27 22:48:01 replicate_layout.action_replicate_layout 369:source anchor footprint is 'D202'
+Located on:['PowerSection']
+With filenames:['BQ24232HRGTR.sch']
+With sheet_id:['PowerSection']
+12-27 22:48:01 replicate_layout.action_replicate_layout 374:Corresponding footprints are 
+[('D202', ['PowerSection'])]
+12-27 22:48:01 replicate_layout.action_replicate_layout 387:Showing dialog
+12-27 22:48:01 replicate_layout.action_replicate_layout 391:Pcbnew position: wx.Point(72, 64)
+12-27 22:48:01 replicate_layout.action_replicate_layout 397:Display 0: wx.Rect(0, 0, 1920, 1080)
+12-27 22:48:01 replicate_layout.action_replicate_layout 401:Toolbar position: wx.Point(1681, 169)
+12-27 22:48:01 replicate_layout.action_replicate_layout 408:Dialog position: wx.Point(1368, 169)
+12-27 22:48:01 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'PowerSection', file:'BQ24232HRGTR.sch'
+12-27 22:48:01 replicate_layout.replicatelayout 256:Source sheet path up to the level:['PowerSection']
+12-27 22:48:01 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['D202']
+12-27 22:48:01 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5FDF4EEF/5FEE0DF5']
+12-27 22:48:01 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['PowerSection']]
+12-27 22:48:01 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['PowerSection']]
+12-27 22:48:01 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[]
+12-27 22:48:08 replicate_layout.action_replicate_layout 252:User canceled the dialog

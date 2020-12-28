@@ -1,0 +1,95 @@
+12-27 22:35:53 swap_units.action_swap_units 87:Plugin executed on: 'linux'
+12-27 22:35:53 swap_units.action_swap_units 88:Plugin executed with python version: '3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]'
+12-27 22:35:53 swap_units.action_swap_units 89:KiCad build version: 5.1.8-db9833491~88~ubuntu20.04.1
+12-27 22:35:53 swap_units.action_swap_units 90:Swap units plugin version: 37 started
+12-27 22:35:53 swap_units.swap_units 48:Starting swap_units
+12-27 22:35:53 swap_units.swap_units 56:main sch file is: /home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BluePilot.sch
+12-27 22:35:53 swap_units.swap_units 57:main pcb file is: /home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BluePilot.kicad_pcb
+12-27 22:35:53 swap_units.swap_units 58:sch cache file is: /home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BluePilot-cache.lib
+12-27 22:35:53 swap_units.swap_units 63:Swapping pins: 16,1
+12-27 22:35:53 swap_units.swap_units 68:Swaping units on: U201
+12-27 22:35:53 swap_units.swap_units 83:Sch files to modify are: ['/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BQ24232HRGTR.sch']
+12-27 22:35:53 swap_units.swap_units 96:Symbol name is: BluePilot:BQ24232HRGTR
+12-27 22:35:53 swap_units.swap_units 112:Found symbol BluePilot:BQ24232HRGTR in -cache.lib
+12-27 22:35:53 swap_units.swap_units 137:Number of units in symbols: 1
+12-27 22:35:53 swap_units.swap_units 158:Units to swap are: 1, 1
+12-27 22:35:53 swap_units.swap_units 187:Files where the units are:
+	/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BQ24232HRGTR.sch
+	/home/patrys/git_KiCad_Hardware/BluePilot/BluePilot/BQ24232HRGTR.sch
+12-27 22:35:53 swap_units.swap_units 211:Unit 1 is not on multiple hierarchy sheet
+12-27 22:35:53 swap_units.swap_units 212:$Comp
+L BluePilot:BQ24232HRGTR U201
+U 1 1 5FF06101
+P 6025 2825
+F 0 "U201" H 6075 3525 50  0000 C CNN
+F 1 "BQ24232HRGTR" H 6075 3425 50  0000 C CNN
+F 2 "BluePilot:BQ24232HRGTR" H 6150 3975 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq24232h.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1608233701866&ref_url=https%253A%252F%252Fpl.mouser.com%252F" H 6150 3975 50  0001 C CNN
+F 4 "Texas Instruments" H 6025 2825 50  0001 C CNN "Manufacturer:"
+F 5 "Battery Management" H 6025 2825 50  0001 C CNN "Product Category:"
+F 6 "https://pl.mouser.com/Search/RoHSCompliant?qs=EIDG2y%252Bg3gBlf9CU3E5HFg%3d%3d" H 6025 2825 50  0001 C CNN "RoHS:"
+F 7 "Li-Ion, Li-Polymer" H 6025 2825 50  0001 C CNN "Battery Type:"
+F 8 "4.35 V" H 6025 2825 50  0001 C CNN "Output Voltage:"
+F 9 "500 mA" H 6025 2825 50  0001 C CNN "Output Current:"
+F 10 "4.35 V to 28 V" H 6025 2825 50  0001 C CNN "Operating Supply Voltage:"
+F 11 " VQFN-16" H 6025 2825 50  0001 C CNN "Package/Case:"
+F 12 " SMD/SMT" H 6025 2825 50  0001 C CNN "Mounting Style:"
+F 13 "BQ24232H" H 6025 2825 50  0001 C CNN "Series:"
+F 14 " Cut Tape" H 6025 2825 50  0001 C CNN "Packaging_1:"
+F 15 "MouseReel" H 6025 2825 50  0001 C CNN "Packaging_2:"
+F 16 "Reel" H 6025 2825 50  0001 C CNN "Packaging_3:"
+F 17 "Texas Instruments" H 6025 2825 50  0001 C CNN "Brand:"
+F 18 "+ 85 C" H 6025 2825 50  0001 C CNN "Maximum Operating Temperature:"
+F 19 "- 40 C" H 6025 2825 50  0001 C CNN "Minimum Operating Temperature:"
+F 20 "Yes" H 6025 2825 50  0001 C CNN "Moisture Sensitive:"
+F 21 "Battery Management" H 6025 2825 50  0001 C CNN "Product Type:"
+F 22 "3000" H 6025 2825 50  0001 C CNN "Factory Pack Quantity:"
+F 23 "PMIC - Power Management ICs" H 6125 2825 50  0001 C CNN "Subcategory:"
+F 24 "bqTINY" H 6025 2825 50  0001 C CNN "Tradename:"
+F 25 "50 mg " H 6025 2825 50  0001 C CNN "Unit Weight:"
+	1    6025 2825
+	1    0    0    -1  
+
+12-27 22:35:53 swap_units.swap_units 213:Unit 1 description is around lines: 1018
+12-27 22:35:53 swap_units.swap_units 256:Swapping unit 1 U field
+12-27 22:35:53 swap_units.swap_units 282:Unit 2 is not on multiple hierarchy sheet
+12-27 22:35:53 swap_units.swap_units 283:$Comp
+L BluePilot:BQ24232HRGTR U201
+U 1 1 5FF06101
+P 6025 2825
+F 0 "U201" H 6075 3525 50  0000 C CNN
+F 1 "BQ24232HRGTR" H 6075 3425 50  0000 C CNN
+F 2 "BluePilot:BQ24232HRGTR" H 6150 3975 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq24232h.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1608233701866&ref_url=https%253A%252F%252Fpl.mouser.com%252F" H 6150 3975 50  0001 C CNN
+F 4 "Texas Instruments" H 6025 2825 50  0001 C CNN "Manufacturer:"
+F 5 "Battery Management" H 6025 2825 50  0001 C CNN "Product Category:"
+F 6 "https://pl.mouser.com/Search/RoHSCompliant?qs=EIDG2y%252Bg3gBlf9CU3E5HFg%3d%3d" H 6025 2825 50  0001 C CNN "RoHS:"
+F 7 "Li-Ion, Li-Polymer" H 6025 2825 50  0001 C CNN "Battery Type:"
+F 8 "4.35 V" H 6025 2825 50  0001 C CNN "Output Voltage:"
+F 9 "500 mA" H 6025 2825 50  0001 C CNN "Output Current:"
+F 10 "4.35 V to 28 V" H 6025 2825 50  0001 C CNN "Operating Supply Voltage:"
+F 11 " VQFN-16" H 6025 2825 50  0001 C CNN "Package/Case:"
+F 12 " SMD/SMT" H 6025 2825 50  0001 C CNN "Mounting Style:"
+F 13 "BQ24232H" H 6025 2825 50  0001 C CNN "Series:"
+F 14 " Cut Tape" H 6025 2825 50  0001 C CNN "Packaging_1:"
+F 15 "MouseReel" H 6025 2825 50  0001 C CNN "Packaging_2:"
+F 16 "Reel" H 6025 2825 50  0001 C CNN "Packaging_3:"
+F 17 "Texas Instruments" H 6025 2825 50  0001 C CNN "Brand:"
+F 18 "+ 85 C" H 6025 2825 50  0001 C CNN "Maximum Operating Temperature:"
+F 19 "- 40 C" H 6025 2825 50  0001 C CNN "Minimum Operating Temperature:"
+F 20 "Yes" H 6025 2825 50  0001 C CNN "Moisture Sensitive:"
+F 21 "Battery Management" H 6025 2825 50  0001 C CNN "Product Type:"
+F 22 "3000" H 6025 2825 50  0001 C CNN "Factory Pack Quantity:"
+F 23 "PMIC - Power Management ICs" H 6125 2825 50  0001 C CNN "Subcategory:"
+F 24 "bqTINY" H 6025 2825 50  0001 C CNN "Tradename:"
+F 25 "50 mg " H 6025 2825 50  0001 C CNN "Unit Weight:"
+	1    6025 2825
+	1    0    0    -1  
+
+12-27 22:35:53 swap_units.swap_units 284:Unit 2 description is around lines: 1018
+12-27 22:35:53 swap_units.swap_units 327:Swapping second unit on the same page
+12-27 22:35:53 swap_units.swap_units 328:Swapping unit 1 U field
+12-27 22:35:53 swap_units.swap_units 346:Swapping pins in layout
+12-27 22:35:53 swap_units.swap_units 380:Saved the layout.
+12-27 22:35:53 swap_units.swap_units 383:Save the schematics
+12-27 22:35:53 swap_units.swap_units 417:Saved the schematics.

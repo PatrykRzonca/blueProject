@@ -1,0 +1,484 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BHC-18650-1P
+#
+DEF BHC-18650-1P BT 0 40 Y Y 1 F N
+F0 "BT" 100 -425 50 H V C CNN
+F1 "BHC-18650-1P" 0 -25 50 V V C CNN
+F2 "BluePilot:BHC-18650-1P" -600 275 50 H I C CNN
+F3 "" -600 275 50 H I C CNN
+F4 " COMF" 0 0 50 H I C CNN "Producent"
+F5 "pojemnik" 0 0 50 H I C CNN "Typ akcesoriów do baterii"
+F6 "do druku" 0 0 50 H I C CNN "Wyprowadzenia"
+F7 "MR18650" 0 0 50 H I C CNN "Rozmiar ogniwa"
+F8 "1" 0 0 50 H I C CNN "Ilość baterii"
+F9 "czarny" 0 0 50 H I C CNN "Kolor"
+F10 "https://www.tme.eu/html/gfx/image_22171.gif" 0 0 50 H I C CNN " Wymiary "
+F11 "7 [g]" 0 0 50 H I C CNN "Masa brutto"
+F12 " BHC-18650-1P " 0 0 50 H I C CNN "Oznaczenie producenta"
+DRAW
+A 0 -275 125 -1269 -531 0 1 0 N -75 -375 75 -375
+S -50 250 -25 250 0 1 0 N
+S -50 300 -50 250 0 1 0 N
+S -50 300 50 300 0 1 0 N
+S -50 350 50 325 0 1 0 N
+S -25 250 50 250 0 1 0 N
+S 50 250 50 300 0 1 0 N
+S -50 -350 -25 -350 1 1 0 N
+S -50 -300 -50 -350 1 1 0 N
+S -50 -300 50 -300 1 1 0 N
+S -50 -275 -25 -275 1 1 0 N
+S -50 -225 -50 -275 1 1 0 N
+S -50 -225 50 -225 1 1 0 N
+S -50 -200 -25 -200 1 1 0 N
+S -50 -150 -50 -200 1 1 0 N
+S -50 -150 50 -150 1 1 0 N
+S -50 -125 -25 -125 1 1 0 N
+S -50 -75 -50 -125 1 1 0 N
+S -50 -75 50 -75 1 1 0 N
+S -50 -50 -25 -50 1 1 0 N
+S -50 0 -50 -50 1 1 0 N
+S -50 0 50 0 1 1 0 N
+S -50 25 -25 25 1 1 0 N
+S -50 75 -50 25 1 1 0 N
+S -50 75 50 75 1 1 0 N
+S -50 100 -25 100 1 1 0 N
+S -50 150 -50 100 1 1 0 N
+S -50 150 50 150 1 1 0 N
+S -50 175 -25 175 1 1 0 N
+S -50 225 -50 175 1 1 0 N
+S -50 225 50 225 1 1 0 N
+S -25 -350 50 -350 1 1 0 N
+S -25 -275 50 -275 1 1 0 N
+S -25 -200 50 -200 1 1 0 N
+S -25 -125 50 -125 1 1 0 N
+S -25 -50 50 -50 1 1 0 N
+S -25 25 50 25 1 1 0 N
+S -25 100 50 100 1 1 0 N
+S -25 175 50 175 1 1 0 N
+S 50 -350 50 -300 1 1 0 N
+S 50 -275 50 -225 1 1 0 N
+S 50 -200 50 -150 1 1 0 N
+S 50 -125 50 -75 1 1 0 N
+S 50 -50 50 0 1 1 0 N
+S 50 25 50 75 1 1 0 N
+S 50 100 50 150 1 1 0 N
+S 50 175 50 225 1 1 0 N
+P 3 0 1 0 -50 325 -75 325 -75 -375 N
+P 3 0 1 0 75 -375 75 325 50 325 N
+X VBAT+ 1 0 350 0 L 50 50 1 1 w
+X VBAT- 2 0 -400 0 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# BQ24232HRGTR
+#
+DEF BQ24232HRGTR U 0 40 Y Y 1 F N
+F0 "U" -300 550 50 H V C CNN
+F1 "BQ24232HRGTR" 150 -550 50 H V C CNN
+F2 "BluePilot:BQ24232HRGTR" 125 1150 50 H I C CNN
+F3 "" 125 1150 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer:"
+F5 "Battery Management" 0 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=EIDG2y%252Bg3gBlf9CU3E5HFg%3d%3d" 0 0 50 H I C CNN "RoHS:"
+F7 "Li-Ion, Li-Polymer" 0 0 50 H I C CNN "Battery Type:"
+F8 "4.35 V" 0 0 50 H I C CNN "Output Voltage:"
+F9 "500 mA" 0 0 50 H I C CNN "Output Current:"
+F10 "4.35 V to 28 V" 0 0 50 H I C CNN "Operating Supply Voltage:"
+F11 " VQFN-16" 0 0 50 H I C CNN "Package/Case:"
+F12 " SMD/SMT" 0 0 50 H I C CNN "Mounting Style:"
+F13 "BQ24232H" 0 0 50 H I C CNN "Series:"
+F14 " Cut Tape" 0 0 50 H I C CNN "Packaging_1:"
+F15 "MouseReel" 0 0 50 H I C CNN "Packaging_2:"
+F16 "Reel" 0 0 50 H I C CNN "Packaging_3:"
+F17 "Texas Instruments" 0 0 50 H I C CNN "Brand:"
+F18 "+ 85 C" 0 0 50 H I C CNN "Maximum Operating Temperature:"
+F19 "- 40 C" 0 0 50 H I C CNN "Minimum Operating Temperature:"
+F20 "Yes" 0 0 50 H I C CNN "Moisture Sensitive:"
+F21 "Battery Management" 0 0 50 H I C CNN "Product Type:"
+F22 "3000" 0 0 50 H I C CNN "Factory Pack Quantity:"
+F23 "PMIC - Power Management ICs" 100 0 50 H I C CNN "Subcategory:"
+F24 "bqTINY" 0 0 50 H I C CNN "Tradename:"
+F25 "50 mg " 0 0 50 H I C CNN "Unit Weight:"
+DRAW
+S -350 500 450 -500 0 1 0 f
+X TS 1 -450 100 100 R 50 50 1 1 I
+X OUT 10 550 400 100 L 50 50 1 1 w
+X OUT 11 550 300 100 L 50 50 1 1 w
+X ILIM 12 -450 -100 100 R 50 50 1 1 I
+X IN 13 -450 400 100 R 50 50 1 1 I
+X TMR 14 -450 -300 100 R 50 50 1 1 I
+X ITERM 15 -450 -200 100 R 50 50 1 1 I
+X ISET 16 -450 -400 100 R 50 50 1 1 B
+X ThermalPad 17 550 -300 100 L 50 50 1 1 W
+X BAT 2 -450 300 100 R 50 50 1 1 I
+X BAT 3 -450 200 100 R 50 50 1 1 I
+X ~CE 4 -450 0 100 R 50 50 1 1 I L
+X EN2 5 550 100 100 L 50 50 1 1 I
+X EN1 6 550 200 100 L 50 50 1 1 I
+X ~PGOOD 7 550 -100 100 L 50 50 1 1 C
+X VSS 8 550 -200 100 L 50 50 1 1 W
+X ~CHG 9 550 0 100 L 50 50 1 1 C
+ENDDRAW
+ENDDEF
+#
+# CL10A475KP8NNNC
+#
+DEF CL10A475KP8NNNC C 0 40 Y Y 1 F N
+F0 "C" 75 0 50 H V L BNN
+F1 "CL10A475KP8NNNC" 375 150 50 H I L BNN
+F2 "BluePilot:CL10A475KP8NNNC" 60 150 50 H I L BNN
+F3 "" 0 -50 50 V I L BNN
+F4 "Samsung Electro-Mechanics" -45 170 50 H I C CNN "Manufacturer:"
+F5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT" -45 170 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=svmKof19dAEn%252BrtksIPoDQ%3d%3d" -45 170 50 H I C CNN "RoHS:"
+F7 "Cut Tape" -45 170 50 H I C CNN "Packaging_1:"
+F8 "MouseReel" -45 170 50 H I C CNN "Packaging_2:"
+F9 "Reel" -45 170 50 H I C CNN "Packaging_3:"
+F10 "Standard" -45 170 50 H I C CNN "Termination:"
+F11 "4.7 uF" -200 -5 39 H V C CNN "Capacitance:"
+F12 "10 VDC" -190 -55 39 H V C CNN "Voltage Rating DC:"
+F13 "X5R" -45 170 50 H I C CNN "Dielectric:"
+F14 "10 %" -45 170 50 H I C CNN "Tolerance:"
+F15 "0603" -45 170 50 H I C CNN "Case Code - in:"
+F16 "1608" -45 170 50 H I C CNN "Case Code - mm:"
+F17 "0.9 mm" -45 170 50 H I C CNN "Height:"
+F18 "-55 C" -45 170 50 H I C CNN "inimum Operating Temperature:"
+F19 "+ 85 C" -45 170 50 H I C CNN "Maximum Operating Temperature:"
+F20 "General Type MLCCs" -45 170 50 H I C CNN "Product:"
+F21 "SMD/SMT" -45 170 50 H I C CNN "Termination Style:"
+F22 "CL" -45 170 50 H I C CNN "Series:"
+F23 "1.6 mm" -45 170 50 H I C CNN "Length:"
+F24 "0603 (1608 metric)" -45 170 50 H I C CNN "Package/Case:"
+F25 "Multilayer Ceramic Capaticor" -45 170 50 H I C CNN " Type:"
+F26 "0.8 mm" -45 170 50 H I C CNN "Width:"
+F27 "Samsung Electro-Mechanics" -45 170 50 H I C CNN "Brand:"
+F28 "4700 nF" -45 170 50 H I C CNN "Capacitance - nF:"
+F29 "Class 2" -45 170 50 H I C CNN " Class:"
+F30 "Ceramic Capacitors" -45 170 50 H I C CNN "Product Type:"
+F31 "4000" -45 170 50 H I C CNN "Factory Pack Quantity:"
+F32 "Capacitors" -45 170 50 H I C CNN "Subcategory:"
+F33 "CL10A475KP8NNN" -45 170 50 H I C CNN "Part # Aliases:"
+DRAW
+S 75 -50 -75 -40 0 0 0 F
+S 75 -10 -75 0 0 0 0 F
+X ~ 1 0 100 100 D 40 40 0 0 P
+X ~ 2 0 -150 100 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CL10B472KC8WPNC
+#
+DEF CL10B472KC8WPNC C 0 40 Y Y 1 F N
+F0 "C" 75 25 50 H V L BNN
+F1 "CL10B472KC8WPNC" 375 150 50 H I L BNN
+F2 "BluePilot:CL10B472KC8WPNC" 60 150 50 H I L BNN
+F3 "" 0 -25 50 V I L BNN
+F4 "Samsung Electro-Mechanics" -45 170 50 H I C CNN "Manufacturer:"
+F5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT" -45 170 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=qbUjXKNkzpnfDACOW2s%252BHw%3d%3d" -45 170 50 H I C CNN "RoHS:"
+F7 "Cut Tape" -45 170 50 H I C CNN "Packaging_1:"
+F8 "Reel" -45 170 50 H I C CNN "Packaging_2:"
+F9 "Standard" -45 170 50 H I C CNN "Termination:"
+F10 "4700 pF" -210 30 39 H V C CNN "Capacitance:"
+F11 "100 VDC" -210 -30 39 H V C CNN "Voltage Rating DC:"
+F12 "X7R" -45 170 50 H I C CNN "Dielectric:"
+F13 "10 %" -45 170 50 H I C CNN "Tolerance:"
+F14 "0603" -45 170 50 H I C CNN "Case Code - in:"
+F15 "1608" -45 170 50 H I C CNN "Case Code - mm:"
+F16 "0.9 mm" -45 170 50 H I C CNN "Height:"
+F17 "-55 C" -45 170 50 H I C CNN "inimum Operating Temperature:"
+F18 "+ 85 C" -45 170 50 H I C CNN "Maximum Operating Temperature:"
+F19 "General Type MLCCs" -45 170 50 H I C CNN "Product:"
+F20 "SMD/SMT" -45 170 50 H I C CNN "Termination Style:"
+F21 "CL Auto" -45 170 50 H I C CNN "Series:"
+F22 "1.6 mm" -45 170 50 H I C CNN "Length:"
+F23 "0603 (1608 metric)" -45 170 50 H I C CNN "Package/Case:"
+F24 "Multilayer Ceramic Capaticor" -45 170 50 H I C CNN " Type:"
+F25 "0.8 mm" -45 170 50 H I C CNN "Width:"
+F26 "Samsung Electro-Mechanics" -45 170 50 H I C CNN "Brand:"
+F27 "4.7nF" -45 170 50 H I C CNN "Capacitance - nF:"
+F28 "Class 2" -45 170 50 H I C CNN " Class:"
+F29 "Ceramic Capacitors" -45 170 50 H I C CNN "Product Type:"
+F30 "4000" -45 170 50 H I C CNN "Factory Pack Quantity:"
+F31 "Capacitors" -45 170 50 H I C CNN "Subcategory:"
+F32 "CL10B472KC8WPN" -45 170 50 H I C CNN "Part # Aliases:"
+DRAW
+S 75 -25 -75 -15 0 0 0 F
+S 75 15 -75 25 0 0 0 F
+X ~ 1 0 125 100 D 40 40 0 0 P
+X ~ 2 0 -125 100 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CRGCQ0603F150R
+#
+DEF CRGCQ0603F150R R 0 40 Y Y 1 F N
+F0 "R" 0 75 50 H V C CNN
+F1 "CRGCQ0603F150R" 0 -80 50 H V C CNN
+F2 "BluePilot:CRGCQ0603F150R" -50 100 50 H I C CNN
+F3 "" -50 100 50 H I C CNN
+F4 "TE Connectivity" 0 0 50 H I C CNN "Manufacturer:"
+F5 "Thick Film Resistors - SMD" 0 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/CompliantByExemption?qs=XOR2mAOnOYpbkjEcL%2f9%2fTA%3d%3d" 0 0 50 H I C CNN "RoHS:"
+F7 "Cut Tape" 0 0 50 H I C CNN "Packaging_1:"
+F8 "MouseReel" 0 0 50 H I C CNN "Packaging_2:"
+F9 "Reel" 0 0 50 H I C CNN "Packaging_3:"
+F10 "CRGCQ, https://pl.mouser.com/TE-Connectivity/Thick-Film-Resistors-SMD/CRGCQ-Series/_/N-1yzs6iiZ7gz42Z1y95ckl" 0 0 50 H I C CNN "Series:"
+F11 " 150 Ohms " 0 0 50 H I C CNN "Resistance:"
+F12 "100 mW (1/10 W)" 0 0 50 H I C CNN "Power Rating:"
+F13 "1 %" 0 0 50 H I C CNN "Tolerance:"
+F14 "- 55 C" 0 0 50 H I C CNN "Minimum Operating Temperature:"
+F15 "+ 125 C" 0 0 50 H I C CNN "Maximum Operating Temperature:"
+F16 "75 V" 0 0 50 H I C CNN "Voltage Rating:"
+F17 "0603" 0 0 50 H I C CNN "Case Code - in:"
+F18 "1608" 0 0 50 H I C CNN "Case Code - mm:"
+F19 "Commercial Grade " 0 0 50 H I C CNN "Application:"
+F20 "-" 0 0 50 H I C CNN "Features:"
+F21 "0.45 mm" 0 0 50 H I C CNN "Height:"
+F22 "1.6 mm" 0 0 50 H I C CNN "Length:"
+F23 "-" 0 0 50 H I C CNN "Package/Case:"
+F24 "Thick Film Resistors General Purpose" 0 0 50 H I C CNN " Product:"
+F25 "Thick Film" 0 0 50 H I C CNN "Technology:"
+F26 "SMD/SMT" 0 0 50 H I C CNN "Termination Style:"
+F27 "General Purpose" 0 0 50 H I C CNN "Type:"
+F28 "0.8 mm" 0 0 50 H I C CNN "Width:"
+F29 "TE Connectivity / Holsworthy" 0 0 50 H I C CNN "Brand:"
+F30 "PCB Mount" 0 0 50 H I C CNN "Mounting Style:"
+F31 "Thick Film Resistors" 0 0 50 H I C CNN "Product Type:"
+F32 "5000" 0 0 50 H I C CNN "Factory Pack Quantity:"
+F33 "Resistors" 0 0 50 H I C CNN "Subcategory:"
+F34 "1-2176339-5" 0 0 50 H I C CNN "Part # Aliases:"
+F35 "24 mg" 0 0 50 H I C CNN "Unit Weight:"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ERT-J1VR103J
+#
+DEF ERT-J1VR103J RT 0 40 Y Y 1 F N
+F0 "RT" 0 80 50 H V C CNN
+F1 "ERT-J1VR103J" 0 -110 50 H V C CNN
+F2 "BluePilot:ERT-J1VR103J" 0 0 50 H I C CNN
+F3 "" -90 210 50 H I C CNN
+F4 "Panasonic" 0 0 50 H I C CNN "Manufacturer:"
+F5 "NTC (Negative Temperature Coefficient) Thermistors" 0 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=nQzkXAhPvFZ8wdxRWKG3Rw%3d%3d" 0 0 50 H I C CNN "RoHS:"
+F7 "ERTJ, https://pl.mouser.com/Panasonic/NTC-Thermistors/ERTJ-Series/_/N-1yzvjj0ZaxfvtZ1yzrt3w" 0 0 50 H I C CNN "Series:"
+F8 "4300 K" 0 0 50 H I C CNN "B Parameter:"
+F9 "10 kOhms" 0 0 50 H I C CNN "Resistance:"
+F10 "100 mW" 0 0 50 H I C CNN "Power Rating:"
+F11 "5 %" 0 0 50 H I C CNN "Tolerance:"
+F12 "SMD/SMT" 0 0 50 H I C CNN "Termination Style:"
+F13 "- 40 C" 0 0 50 H I C CNN "Minimum Operating Temperature:"
+F14 "+ 125 C" 0 0 50 H I C CNN "Maximum Operating Temperature:"
+F15 "0603 (1608 metric)" 0 0 50 H I C CNN "Package/Case:"
+F16 "1.6 mm" 0 0 50 H I C CNN "Length:"
+F17 "0.8 mm" 0 0 50 H I C CNN "Width:"
+F18 "0.8 mm" 0 0 50 H I C CNN "Height:"
+F19 "Cut Tape" 0 0 50 H I C CNN "Packaging_1:"
+F20 "MouseReel" 0 0 50 H I C CNN "Packaging_2:"
+F21 "Reel" 0 0 50 H I C CNN "Packaging_3:"
+F22 "NTC" 0 0 50 H I C CNN "Type:"
+F23 "Panasonic" 0 0 50 H I C CNN "Brand:"
+F24 "B25/85" 0 0 50 H I C CNN "Beta Value:"
+F25 "NTC Thermistors" 0 0 50 H I C CNN "Product Type:"
+F26 "4000" 0 0 50 H I C CNN "Factory Pack Quantity:"
+F27 "Thermistors" 0 0 50 H I C CNN "Subcategory:"
+F28 "34 mg" 0 0 50 H I C CNN "Unit Weight:"
+DRAW
+A 85 110 10 900 1800 1 1 0 N 85 120 75 110
+A 85 110 10 1800 -900 1 1 0 N 75 110 85 100
+A 88 126 7 -1165 -82 1 1 0 N 85 120 95 125
+A 110 110 10 0 900 1 1 0 N 120 110 110 120
+A 110 110 10 900 1800 1 1 0 N 110 120 100 110
+A 110 110 10 -900 0 1 1 0 N 110 100 120 110
+A 119 104 20 1625 -1153 1 1 0 N 100 110 110 85
+S 100 40 -100 -40 1 1 10 N
+P 2 1 1 0 85 100 110 100 N
+P 4 1 1 0 100 70 60 70 -60 -70 -100 -70 N
+P 6 1 1 0 -145 100 -55 100 -85 110 -85 90 -55 100 -65 100 F
+P 6 1 1 0 -55 70 -145 70 -115 80 -115 60 -145 70 -135 70 F
+X ~ 1 150 0 50 L 50 50 1 1 P
+X ~ 2 -150 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KB_DELPS2.12-QHRI-24-Z555-10-S
+#
+DEF KB_DELPS2.12-QHRI-24-Z555-10-S D 0 40 Y Y 1 F N
+F0 "D" -60 90 50 H V C CNN
+F1 "KB_DELPS2.12-QHRI-24-Z555-10-S" -10 -130 50 H V C CNN
+F2 "BluePilot:KB_DELPS2.12-QHRI-24-Z555-10-S" -30 0 50 H I C CNN
+F3 "" -30 0 50 H I C CNN
+F4 "Osram Opto Semiconductor" -30 0 50 H I C CNN "Manufacturer:"
+F5 "Standard LEDs - SMD" -30 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=EEZBBpFeDS%252B59rfHH5hrrQ%3d%3d" -30 0 50 H I C CNN "RoHS:"
+F7 "Blue LEDs" -30 0 50 H I C CNN "Product:"
+F8 "0603 (1608 metric)" -30 0 50 H I C CNN "Package/Case:"
+F9 "Top View" -30 0 50 H I C CNN "Orientation:"
+F10 "Blue" -30 0 50 H I C CNN "Illumination Colour:"
+F11 " 10 mA" -30 0 50 H I C CNN "If - Forward Current:"
+F12 "2.8 V" -30 0 50 H I C CNN "Vf - Forward Voltage:"
+F13 "466 nm" -30 0 50 H I C CNN "Wavelength/Colour Temperature:"
+F14 "97 mcd" -30 0 50 H I C CNN "Luminous Intensity:"
+F15 "120 deg" -30 0 50 H I C CNN "Viewing Angle:"
+F16 " 1.6 mm" -30 0 50 H I C CNN "Length:"
+F17 "0.6 mm" -30 0 50 H I C CNN "Height:"
+F18 "0.8 mm" -30 0 50 H I C CNN "Width:"
+F19 "- 40 C" -30 0 50 H I C CNN "Minimum Operating Temperature:"
+F20 "+ 110 C" -30 0 50 H I C CNN "Maximum Operating Temperature:"
+F21 "Colorless" -30 0 50 H I C CNN "Lens Colour:"
+F22 "Clear" -30 0 50 H I C CNN "Lens Transparency:"
+F23 "TOPLED E 1608, https://pl.mouser.com/Osram-Opto-Semiconductor/Standard-LEDs-SMD/TOPLED-E-1608-Series/_/N-1z0j7bwZec21jZ1y8d3oi" -30 0 50 H I C CNN "Series:"
+F24 "Cut Tape" -30 0 50 H I C CNN "Packaging_1:"
+F25 "MouseReel" -30 0 50 H I C CNN "Packaging_2:"
+F26 "Reel" -30 0 50 H I C CNN "Packaging_3:"
+F27 "OSRAM Opto Semiconductors" -30 0 50 H I C CNN "Brand:"
+F28 "SMD/SMT" -30 0 50 H I C CNN "Mounting Style:"
+F29 "Yes" -30 0 50 H I C CNN "Moisture Sensitive:"
+F30 "LED - Standard" -30 0 50 H I C CNN "Product Type:"
+F31 "5000" -30 0 50 H I C CNN "Factory Pack Quantity:"
+F32 "LEDs" -30 0 50 H I C CNN " Subcategory:"
+F33 "Q65112A6350" -30 0 50 H I C CNN "Part # Aliases:"
+F34 "2 mg" -30 0 50 H I C CNN "Unit Weight:"
+DRAW
+P 2 1 1 10 -60 -50 -60 50 N
+P 2 1 1 0 -60 0 40 0 N
+P 4 1 1 10 40 -50 40 50 -60 0 40 -50 N
+P 5 1 1 0 -130 -30 -190 -90 -160 -90 -190 -90 -190 -60 N
+P 5 1 1 0 -80 -30 -140 -90 -110 -90 -140 -90 -140 -60 N
+X K 1 -160 0 100 R 50 50 1 1 P
+X A 2 140 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-071ML
+#
+DEF RC0603FR-071ML R 0 40 Y Y 1 F N
+F0 "R" 0 75 50 H V C CNN
+F1 "RC0603FR-071ML" 0 -80 50 H V C CNN
+F2 "BluePilot:RC0603FR-071ML" -50 100 50 H I C CNN
+F3 "" -50 100 50 H I C CNN
+F4 "Yageo" 0 0 50 H I C CNN "Manufacturer:"
+F5 "Thick Film Resistors - SMD" 0 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/CompliantByExemption?qs=XOR2mAOnOYpbkjEcL%2f9%2fTA%3d%3d" 0 0 50 H I C CNN "RoHS:"
+F7 "Cut Tape" 0 0 50 H I C CNN "Packaging_1:"
+F8 "MouseReel" 0 0 50 H I C CNN "Packaging_2:"
+F9 "Reel" 0 0 50 H I C CNN "Packaging_3:"
+F10 "RC, https://pl.mouser.com/Yageo/Thick-Film-Resistors-SMD/RC-Series/_/N-1z0zlfjZ7gz42Z1yzvw8y" 0 0 50 H I C CNN "Series:"
+F11 "1 MOhms" 0 0 50 H I C CNN "Resistance:"
+F12 "100 mW (1/10 W)" 0 0 50 H I C CNN "Power Rating:"
+F13 "1 %" 0 0 50 H I C CNN "Tolerance:"
+F14 "100 PPM / C" 0 0 50 H I C CNN "Temperature Coefficient:"
+F15 "- 55 C" 0 0 50 H I C CNN "Minimum Operating Temperature:"
+F16 "+ 155 C" 0 0 50 H I C CNN "Maximum Operating Temperature:"
+F17 "75 V" 0 0 50 H I C CNN "Voltage Rating:"
+F18 "0603" 0 0 50 H I C CNN "Case Code - in:"
+F19 "1608" 0 0 50 H I C CNN "Case Code - mm:"
+F20 "High Reliability" 0 0 50 H I C CNN "Application:"
+F21 "-" 0 0 50 H I C CNN "Features:"
+F22 " 0.45 mm" 0 0 50 H I C CNN "Height:"
+F23 "1.6 mm" 0 0 50 H I C CNN "Length:"
+F24 "-" 0 0 50 H I C CNN "Package/Case:"
+F25 "Thick Film Resistors SMD" 0 0 50 H I C CNN " Product:"
+F26 "Thick Film" 0 0 50 H I C CNN "Technology:"
+F27 "SMD/SMT" 0 0 50 H I C CNN "Termination Style:"
+F28 "General Purpose" 0 0 50 H I C CNN "Type:"
+F29 "0.8 mm" 0 0 50 H I C CNN "Width:"
+F30 "Yageo" 0 0 50 H I C CNN "Brand:"
+F31 "PCB Mount" 0 0 50 H I C CNN "Mounting Style:"
+F32 "Thick Film Resistors" 0 0 50 H I C CNN "Product Type:"
+F33 "5000" 0 0 50 H I C CNN "Factory Pack Quantity:"
+F34 "Resistors" 0 0 50 H I C CNN "Subcategory:"
+F35 "24 mg" 0 0 50 H I C CNN "Unit Weight:"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint
+#
+DEF TestPoint TP 0 0 N N 1 F N
+F0 "TP" 10 110 50 H V C CNN
+F1 "TestPoint" 0 170 50 H V C CNN
+F2 "" -50 80 50 H I C CNN
+F3 "" -50 80 50 H I C CNN
+DRAW
+C 0 60 20 1 1 0 N
+X 1 1 0 0 39 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UJ2-MIBH2-4-SMT-TR
+#
+DEF UJ2-MIBH2-4-SMT-TR J 0 40 Y Y 1 F N
+F0 "J" -200 350 50 H V C CNN
+F1 "UJ2-MIBH2-4-SMT-TR" 450 -350 50 H V C CNN
+F2 "BluePilot:UJ2-MIBH2-4-SMT-TR" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "CUI Devices" 0 0 50 H I C CNN "Manufacturer:"
+F5 "USB Connectors" 0 0 50 H I C CNN "Product Category:"
+F6 "https://pl.mouser.com/Search/RoHSCompliant?qs=OOGF9veBr%252BU6lrcVJE28Pg%3d%3d" 0 0 50 H I C CNN "RoHS:"
+F7 " Micro USB Type B Connectors" 0 0 50 H I C CNN "Product:"
+F8 "Jack (Female)" 0 0 50 H I C CNN "Gender:"
+F9 "USB 2.0" 0 0 50 H I C CNN "Standard:"
+F10 "SMD/SMT" 0 0 50 H I C CNN "Termination Style:"
+F11 "5 Contact" 0 0 50 H I C CNN "Number of Contacts:"
+F12 "1 Port" 0 0 50 H I C CNN "Number of Ports:"
+F13 "500 mA, 1.8 A" 0 0 50 H I C CNN "Current Rating:"
+F14 "Right Angle" 0 0 50 H I C CNN "Mounting Angle:"
+F15 " SMD/SMT" 0 0 50 H I C CNN "Mounting Style:"
+F16 "-" 0 0 50 H I C CNN "IP Rating:"
+F17 "Cut Tape" 0 0 50 H I C CNN "Packaging_1:"
+F18 "MouseReel" 0 0 50 H I C CNN "Packaging_2:"
+F19 "Reel" 0 0 50 H I C CNN "Packaging_3:"
+F20 "Gold" 0 0 50 H I C CNN "Contact Plating:"
+F21 "UJ2-MIBH2-SMT" 0 0 50 H I C CNN "Series:"
+F22 "Type B" 0 0 50 H I C CNN "Type:"
+F23 "30 V" 0 0 50 H I C CNN "Voltage Rating:"
+F24 "CUI Devices" 0 0 50 H I C CNN "Brand:"
+F25 "Copper Alloy" 0 0 50 H I C CNN "Contact Material:"
+F26 "UL 94V-0" 0 0 50 H I C CNN "Flammability Rating:"
+F27 "Black" 0 0 50 H I C CNN "Insulator Colour:"
+F28 "Nickel" 0 0 50 H I C CNN " Shell Plating:"
+F29 "100 MOhms" 0 0 50 H I C CNN "nsulation Resistance:"
+F30 "+ 85 C" 0 0 50 H I C CNN " Maximum Operating Temperature:"
+F31 "- 25 C" 0 0 50 H I C CNN "Minimum Operating Temperature:"
+F32 "USB Connectors" 0 0 50 H I C CNN "Product Type:"
+F33 "1750" 0 0 50 H I C CNN "Factory Pack Quantity:"
+F34 "USB Connectors" 0 0 50 H I C CNN "Subcategory:"
+F35 "UJ2-MIBH2" 0 0 50 H I C CNN "Tradename:"
+F36 "2,338 g" 0 0 50 H I C CNN " Unit Weight:"
+DRAW
+C -150 85 25 1 1 10 F
+C -25 135 15 1 1 10 F
+S -200 -300 200 300 1 1 10 f
+S -5 -300 5 -270 1 1 0 N
+S 10 50 -20 20 1 1 10 F
+S 200 -205 170 -195 1 1 0 N
+S 200 -105 170 -95 1 1 0 N
+S 200 -5 170 5 1 1 0 N
+S 200 195 170 205 1 1 0 N
+P 2 1 1 10 -75 85 25 85 N
+P 4 1 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 1 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 1 1 10 25 110 25 60 75 85 25 110 F
+P 5 1 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 1 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 B
+X D+ 3 300 0 100 L 50 50 1 1 B
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

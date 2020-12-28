@@ -1,0 +1,2 @@
+12-27 22:31:24 STDERR 763:/home/patrys/.kicad/scripting/plugins/delete_selected/action_delete_selected.py:47: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+12-27 22:31:24 STDERR 763:  self.SetSizeHintsSz(sz1, sz2)
